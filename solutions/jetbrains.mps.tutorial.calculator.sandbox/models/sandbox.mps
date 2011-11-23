@@ -8,17 +8,22 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <roots>
     <node type="mkgs.Calculator" typeId="mkgs.4604887137226650208" id="4604887137226650781">
-      <property name="name" nameId="tpck.1169194664001" value="MyCalc" />
+      <property name="name" nameId="tpck.1169194664001" value="VolumeCalculator" />
     </node>
   </roots>
   <root id="4604887137226650781">
     <node role="outputField" roleId="mkgs.4604887137226657696" type="mkgs.OutputField" typeId="mkgs.4604887137226657683" id="4604887137226672605">
-      <node role="expression" roleId="mkgs.4604887137226668013" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="4604887137226672607">
-        <node role="rightExpression" roleId="tpee.1081773367579" type="mkgs.InputFieldReference" typeId="mkgs.4604887137226670076" id="4604887137226672611">
-          <link role="field1" roleId="mkgs.4604887137226670078" targetNodeId="4604887137226657681" resolveInfo="height" />
-        </node>
-        <node role="leftExpression" roleId="tpee.1081773367580" type="mkgs.InputFieldReference" typeId="mkgs.4604887137226670076" id="4604887137226672610">
+      <node role="expression" roleId="mkgs.4604887137226668013" type="tpee.MulExpression" typeId="tpee.1092119917967" id="4604887137226804904">
+        <node role="rightExpression" roleId="tpee.1081773367579" type="mkgs.InputFieldReference" typeId="mkgs.4604887137226670076" id="4604887137226804907">
           <link role="field1" roleId="mkgs.4604887137226670078" targetNodeId="4604887137226657682" resolveInfo="depth" />
+        </node>
+        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.MulExpression" typeId="tpee.1092119917967" id="4604887137226804691">
+          <node role="leftExpression" roleId="tpee.1081773367580" type="mkgs.InputFieldReference" typeId="mkgs.4604887137226670076" id="4604887137226804692">
+            <link role="field1" roleId="mkgs.4604887137226670078" targetNodeId="4604887137226657682" resolveInfo="depth" />
+          </node>
+          <node role="rightExpression" roleId="tpee.1081773367579" type="mkgs.InputFieldReference" typeId="mkgs.4604887137226670076" id="4604887137226804693">
+            <link role="field1" roleId="mkgs.4604887137226670078" targetNodeId="4604887137226657681" resolveInfo="height" />
+          </node>
         </node>
       </node>
     </node>
