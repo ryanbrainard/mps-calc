@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="mkgs" modelUID="r:7e12aec0-5874-4c42-8035-44774e6fc5e9(jetbrains.mps.tutorial.calculator.structure)" version="-1" />
+    </dependencies>
+    <rename id="mkgs.4604887137226650797" type="CHILD" from="inputFields" to="inputField" />
+  </StructureModification>
+</history>
+
